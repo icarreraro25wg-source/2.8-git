@@ -1,5 +1,6 @@
 class calculator {
-    double dividir(int a, int b) { return (double) a / b; }
+    //hau calculagailu bat da
+     int sumar(int a, int b) { return a + b; }
     }
 
 
