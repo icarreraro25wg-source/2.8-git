@@ -1,6 +1,5 @@
-public class calculator {
-    public class Calculator {
-        int sumar(int a, int b) { return a + b; }
+class calculator {
+    public int restar(int a, int b) { return a - b; }
     }
 
-}
+
