@@ -1,6 +1,12 @@
 class calculator {
-    //hau calculagailu bat da
-     int sumar(int a, int b) { return a + b; }
+    long faktoriala(int n) {
+        if (n < 0) throw new IllegalArgumentException("Zenbaki negatiboak ez dira onartzen");
+        long emaitza = 1;
+        for (int i = 1; i <= n; i++) {
+            emaitza *= i;
+        }
+        return emaitza;
+    }
     }
 
 
