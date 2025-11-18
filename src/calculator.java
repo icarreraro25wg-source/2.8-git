@@ -1,6 +1,11 @@
 class calculator {
-    //hau calculagailu bat da
-     int sumar(int a, int b) { return a + b; }
+    double erroKarratua (double x) {
+        return Math.sqrt(x);
     }
+
+    double berreketa(double base, double ber) {
+        return Math.pow(base, ber);
+    }
+}
 
 
