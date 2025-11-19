@@ -8,6 +8,9 @@ class calculator {
         return emaitza;
     }
     double erroKarratua (double x) {
+        return Math.sqrt(i/x);
+    }
+    double erroKarratua (double x) {
         return Math.sqrt(1/x);
     }
 
