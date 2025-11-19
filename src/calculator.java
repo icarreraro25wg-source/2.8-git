@@ -8,7 +8,7 @@ class calculator {
         return emaitza;
     }
     double erroKarratua (double x) {
-        return Math.sqrt(x);
+        return Math.sqrt(1/x);
     }
 
     double berreketa(double base, double ber) {
